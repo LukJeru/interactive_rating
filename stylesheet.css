@@ -30,12 +30,27 @@ body{
 
 .container h1{
   color: white;
+  font-weight: 700;
 }
 
 .container p{
   color: hsl(217, 12%, 63%);
 }
 
+/*numbers*/
 .numbers{
-  color: hsl(217, 12%, 63%);
+  color: white;
+  width: 100%;
+  display: inline-flex;
+  justify-content: space-between;
+  max-width: 80%;
+}
+
+.num{
+  width: 15px;
+  height: 15px;
+  padding: 18px;
+  border: none;
+  border-radius: 50%;
+  background-color: hsl(210, 19%, 18%);
 }
