@@ -2,7 +2,6 @@ body{
   font-size: 15px;
   font-family: "Overpass";
   background-color: hsl(216, 12%, 8%);
-  height: 50rem;
 }
 
 .container{
@@ -15,6 +14,8 @@ body{
   border: none;
   border-radius: 12%;
   text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
 
@@ -43,14 +44,15 @@ body{
   display: inline-flex;
   justify-content: space-between;
   max-width: 80%;
-  margin-bottom: 2rem;
-  margin-top: .8  rem;
+  margin-bottom: 1rem;
+  margin-top: .4rem;
+  margin-left: 3rem;
 }
 
 .num{
-  width: 15px;
-  height: 15px;
-  padding: 20px;
+  width: 1rem;
+  height: 1rem;
+  padding: 1.4rem;
   border: none;
   border-radius: 50%;
   background-color: hsl(210, 19%, 20%);
@@ -66,9 +68,9 @@ body{
   border-radius: 50%;
   background-color: hsl(210, 19%, 20%);
   position: relative;
-  right: 11rem;
   top: 2rem;
   margin-bottom: 2rem;
+  margin-left: 3rem;
 }
 
 
@@ -82,4 +84,40 @@ body{
   border: none;
   border-radius: 25px;
   letter-spacing: 2px;
+  margin-left: 3rem;
+}
+
+
+/*media query*/
+@media only screen and  (max-width:400px) {
+  body{
+    font-size: 10px;
+  }
+  .container{
+    width: 22rem;
+    height: 22rem;
+  }
+  .numbers{
+    margin-top: 3rem;
+  }
+  .submit{
+    margin-top: 2rem;
+  }
+  #star{
+    position:relative;
+    right: .5rem;
+    bottom: .4rem;
+  }
+  .num{
+    padding: .8rem;
+  }
+  .numbers{
+    position: relative;
+    bottom: 2.6rem;
+  }
+  .submit{
+    position: relative;
+    bottom: 4rem;
+    height: 3rem;
+  }
 }
