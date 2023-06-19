@@ -1,16 +1,74 @@
 body{
   font-size: 15px;
   font-family: "Overpass";
+  background-color: hsl(216, 12%, 8%);
+  height: 50rem;
 }
 
 .container{
-  width: 25rem;
-  height: 25rem;
+  position: relative;
+  top: 10rem;
+  width: 30rem;
+  height: 30rem;
   margin: 0 auto;
-  background-image: linear-gradient(hsl(213, 19%, 18%), hsl(216, 12%, 8%));
+  background-image: linear-gradient(hsl(215, 20%, 17%), hsl(216, 12%, 11%));
   border: none;
   border-radius: 12%;
   text-align: center;
+}
+
+
+/*Text*/
+
+.text{
+  text-align: left;
+  max-width: 80%;
+  padding-left: 3rem;
+}
+
+.container h1{
+  color: white;
+  font-weight: 700;
+}
+
+.text p{
+  color: hsl(217, 12%, 63%);
+  line-height: 2rem;
+}
+
+/*numbers*/
+.numbers{
+  color: hsl(217, 12%, 63%);
+  width: 100%;
+  display: inline-flex;
+  justify-content: space-between;
+  max-width: 80%;
+  margin-bottom: 2rem;
+  margin-top: .8  rem;
+}
+
+.num{
+  width: 15px;
+  height: 15px;
+  padding: 20px;
+  border: none;
+  border-radius: 50%;
+  background-color: hsl(210, 19%, 20%);
+}
+
+/*star*/
+
+#star {
+  width: 15px;
+  height: 15px;
+  padding: 18px;
+  border: none;
+  border-radius: 50%;
+  background-color: hsl(210, 19%, 20%);
+  position: relative;
+  right: 11rem;
+  top: 2rem;
+  margin-bottom: 2rem;
 }
 
 
@@ -20,37 +78,8 @@ body{
   color: white;
   width: 80%;
   font-size: 1rem;
-  height: 2.5rem;
+  height: 2.8rem;
   border: none;
   border-radius: 25px;
   letter-spacing: 2px;
-}
-
-/*Text*/
-
-.container h1{
-  color: white;
-  font-weight: 700;
-}
-
-.container p{
-  color: hsl(217, 12%, 63%);
-}
-
-/*numbers*/
-.numbers{
-  color: white;
-  width: 100%;
-  display: inline-flex;
-  justify-content: space-between;
-  max-width: 80%;
-}
-
-.num{
-  width: 15px;
-  height: 15px;
-  padding: 18px;
-  border: none;
-  border-radius: 50%;
-  background-color: hsl(210, 19%, 18%);
 }
