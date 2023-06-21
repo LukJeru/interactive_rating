@@ -59,6 +59,13 @@ body{
   background-color: hsl(210, 19%, 20%);
 }
 
+.num:hover {
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+  cursor: pointer;
+}
+
+
 /*star*/
 
 #star {
@@ -86,6 +93,12 @@ body{
   border-radius: 25px;
   letter-spacing: 2px;
   margin-left: 3rem;
+}
+
+.submit:hover{
+  background-color: hsl(210, 19%, 20%);
+  cursor: pointer;
+  font-weight: 700;
 }
 
 
