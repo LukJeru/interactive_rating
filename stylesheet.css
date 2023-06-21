@@ -5,6 +5,7 @@ body{
 }
 
 .container{
+  visibility: visible;
   position: relative;
   top: 10rem;
   width: 30rem;
@@ -125,6 +126,7 @@ body{
 /*Thank you*/
 
 .thankYou{
+  visibility: hidden;
   position: relative;
   top: 10rem;
   width: 30rem;
