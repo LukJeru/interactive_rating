@@ -4,7 +4,7 @@ body{
   background-color: hsl(216, 12%, 8%);
 }
 
-.container{
+#container{
   visibility: visible;
   position: relative;
   top: 10rem;
@@ -28,7 +28,7 @@ body{
   padding-left: 3rem;
 }
 
-.container h1{
+#heading{
   color: white;
   font-weight: 700;
 }
@@ -83,7 +83,7 @@ body{
 
 
 /*Button*/
-.submit{
+#submit{
   background-color: hsl(25, 97%, 53%);
   color: white;
   width: 80%;
@@ -95,7 +95,7 @@ body{
   margin-left: 3rem;
 }
 
-.submit:hover{
+#submit:hover{
   background-color: hsl(210, 19%, 20%);
   cursor: pointer;
   font-weight: 700;
@@ -138,7 +138,7 @@ body{
 
 /*Thank you*/
 
-.thankYou{
+#thankYou{
   visibility: hidden;
   position: relative;
   top: 10rem;
@@ -154,12 +154,12 @@ body{
   flex-wrap: wrap;
 }
 
-.thankYou img{
+#thankYou img{
   max-width: 40%;
   margin: 40px auto;
 }
 
-.thankYou h3{
+#thankYou h3{
   color: hsl(25, 97%, 53%);
   padding: 5px;
   border: none;
@@ -169,13 +169,13 @@ body{
   margin: 25px auto;
 }
 
-.thankYou h1{
+#thankYou h1{
   color: white;
   font-weight: 400;
   font-size: 1.8rem;
 }
 
-.thankYou p{
+#thankYou p{
   color: hsl(217, 12%, 63%);
   line-height: 2rem;
   width: 80%;
