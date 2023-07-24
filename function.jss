@@ -1,17 +1,16 @@
-let numbers = document.getElementByClass("num");
+let numbers = document.getElementsByClassName("num")[0];
+
+function changeColor() {
+  event.target.style.backgroundColor = "red";
+}
 
 numbers.addEventListener("click", changeColor);
 
-const changeColor = (event) => {
-  document.event.target.style.backgroundColor = orange;
-}
+let submitButton = document.getElementById("submit");
 
-
-let submitButton = document.getElementByClass("submit");
-
-const changeStates = (event) => {
-  document.getElementByClass("container").style.visibility = "hidden";
-  document.getElementByClass("thankYou").style.visibility = "visible";
+const changeStates = () => {
+  document.getElementById("container").style.visibility = "hidden";
+  document.getElementById("thankYou").style.visibility = "visible";
 };
 
 submitButton.addEventListener("click", changeStates);
