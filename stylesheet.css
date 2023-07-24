@@ -39,7 +39,7 @@ body{
 }
 
 /*numbers*/
-.numbers{
+#numbers{
   color: hsl(217, 12%, 63%);
   width: 100%;
   display: inline-flex;
@@ -107,15 +107,20 @@ body{
   body{
     font-size: 10px;
   }
-  .container{
+  #container{
     width: 22rem;
     height: 22rem;
   }
-  .numbers{
+  #numbers{
     margin-top: 3rem;
+    position: relative;
+    bottom: 2.6rem;
   }
-  .submit{
+  #submit{
     margin-top: 2rem;
+    position: relative;
+    bottom: 4rem;
+    height: 3rem;
   }
   #star{
     position:relative;
@@ -125,15 +130,6 @@ body{
   .num{
     padding: .8rem;
   }
-  .numbers{
-    position: relative;
-    bottom: 2.6rem;
-  }
-  .submit{
-    position: relative;
-    bottom: 4rem;
-    height: 3rem;
-  }
 }
 
 /*Thank you*/
@@ -141,7 +137,7 @@ body{
 #thankYou{
   visibility: hidden;
   position: relative;
-  top: 10rem;
+  bottom: 20rem;
   width: 30rem;
   height: 30rem;
   margin: 0 auto;
