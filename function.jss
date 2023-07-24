@@ -1,10 +1,13 @@
-let numbers = document.getElementsByClassName("num")[0];
+let numbers = document.getElementById("numbers");
 
 function changeColor() {
   event.target.style.backgroundColor = "red";
+  numbers.removeEventListener("click", changeColor)
 }
 
+
 numbers.addEventListener("click", changeColor);
+
 
 let submitButton = document.getElementById("submit");
 
