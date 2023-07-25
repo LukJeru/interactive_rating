@@ -7,6 +7,7 @@ function changeColor() {
   }
   event.target.style.backgroundColor = "hsl(217, 12%, 40%)";
   event.target.style.color = "white";
+  document.getElementById("rating").innerHTML = event.target.innerHTML;
 }
 
 for(let i = 0; i < 5; i++){
