@@ -6,6 +6,7 @@ function changeColor() {
   numbers.children[i].style.backgroundColor = "";
   }
   event.target.style.backgroundColor = "hsl(217, 12%, 40%)";
+  document.getElementById("rating").innerHTML = event.target.innerHTML;
   event.target.style.color = "white";
 }
 
