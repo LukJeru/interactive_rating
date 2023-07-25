@@ -22,20 +22,28 @@
       <p>Please let us know how we did with your support request. All feedback is appreciated
       to help us improve our offering!</p>
     </div>
-    <div id="numbers">
-      <p class="num">1</p>
-      <p class="num">2</p>
-      <p class="num">3</p>
-      <p class="num">4</p>
-      <p class="num">5</p>
-    </div>
-
-    <button id="submit">SUBMIT</button>
+    <form action="/index.html" method="GET" id="numbers">
+      <input type="radio" id="1" name="rating" value="1">
+      <label for="1">1</label>
+      <br>
+      <input type="radio" id="2" name="rating" value="2">
+      <label for="2">2</label>
+      <br>
+      <input type="radio" id="3" name="rating" value="3">
+      <label for="3">3</label>
+      <br>
+      <input type="radio" id="4" name="rating" value="4">
+      <label for="4">4</label>
+      <br>
+      <input type="radio" id="5" name="rating" value="5">
+      <label for="5">5</label>
+      <input type="submit" value="Submit">
+    </form>
   </section>
 
   <section id="thankYou">
   <img src="images/illustration-thank-you.svg">
-  <h3>You selected <!-- Add rating here --> out of 5</h3>
+  <h3>You selected ${rating} out of 5</h3>
 
   <h1>Thank you!</h1>
 
