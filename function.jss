@@ -10,9 +10,9 @@ function changeColor() {
   event.target.style.color = "white";
 }
 
-for(let i = 0; i < 5; i++){
-numbers.children[i].addEventListener("click", changeColor);
-}
+
+numbers.addEventListener("click", changeColor);
+
 
 let submitButton = document.getElementById("submit");
 

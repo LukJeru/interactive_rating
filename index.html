@@ -22,15 +22,34 @@
       <p>Please let us know how we did with your support request. All feedback is appreciated
       to help us improve our offering!</p>
     </div>
-    <div id="numbers">
-      <p class="num">1</p>
-      <p class="num">2</p>
-      <p class="num">3</p>
-      <p class="num">4</p>
-      <p class="num">5</p>
-    </div>
-
-    <button id="submit">SUBMIT</button>
+    <form action="/index.html" method="GET" id="numbers">
+      <label for="1">1
+        <input type="radio" id="1" name="rating" value="1" checked="checked">
+        <span class="checkmark"></span>
+      </label>
+      <br>
+      <label for="2">2
+        <input type="radio" id="2" name="rating" value="2" checked="checked">
+        <span class="checkmark"></span>
+      </label>
+      <br>
+      <label for="3">3
+        <input type="radio" id="3" name="rating" value="3" checked="checked">
+        <span class="checkmark"></span>
+      </label>
+      <br>
+      <label for="4">4
+        <input type="radio" id="4" name="rating" value="4" checked="checked">
+        <span class="checkmark"></span>
+      </label>
+      <br>
+      <label for="5">5
+        <input type="radio" id="5" name="rating" value="5" checked="checked">
+        <span class="checkmark"></span>
+      </label>
+      <br>
+      <input type="submit" value="Submit" id="submit">
+    </form>
   </section>
 
   <section id="thankYou">
